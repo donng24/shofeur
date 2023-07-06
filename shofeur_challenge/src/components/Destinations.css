@@ -1,0 +1,45 @@
+.destination {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .popular-destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .destination-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .destination-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  
+  

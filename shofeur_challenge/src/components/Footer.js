@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
@@ -7,9 +8,9 @@ const Footer = () => {
       <div className="footer-content">
         <p>&copy; 2023 Vehicle Rental. All rights reserved.</p>
         <div className="social-links">
-          <i className="fab fa-facebook-f"></i>
-          <i className="fab fa-twitter"></i>
-          <i className="fab fa-instagram"></i>
+          <FaFacebookF />
+          <FaTwitter />
+          <FaInstagram />
         </div>
       </div>
     </footer>

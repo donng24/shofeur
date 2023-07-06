@@ -1,10 +1,20 @@
 .hero-section {
-  background-image: url('https://img.freepik.com/premium-photo/interior-limousine-generative-ai_220873-22356.jpg');
+  background-image: url('https://i.pinimg.com/originals/61/92/a7/6192a77fce80699904640c2587b70b0f.jpg');
   background-size: cover;
   background-position: center;
   text-align: center;
   color: #fff;
   padding: 100px 0;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-card {
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust the card background opacity here */
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .hero-section h1 {
@@ -32,3 +42,9 @@
   background-color: #fff;
   color: #333;
 }
+
+.highlight {
+  color: #ddcc34; 
+  font-weight: bold
+}
+
